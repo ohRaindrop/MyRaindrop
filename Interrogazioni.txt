@@ -1,0 +1,13 @@
+BRFONT SIZE=3 COLOR=purpleLIInterrogazioni Data BaseFONTFONT
+BR&nbsp;&nbsp;&nbspA HREF=mostra_clienti.php  TARGET=contenutiVisualizza tutti i clientiA
+BR&nbsp;&nbsp;&nbspA HREF=mostra_eta.htm  TARGET=contenutiVisualizza i clienti di età.. A
+BR&nbsp;&nbsp;&nbspA HREF=mostra_ques_eta.php  TARGET=contenutivisualizza età media, minima e massima dei clientiA
+BR&nbsp;&nbsp;&nbspA HREF=mostra_stato.htm  TARGET=contenutiVisualizza i clienti provenienti dallo stato.. A
+BR
+BR&nbsp;&nbsp;&nbspA HREF=mostra_prod.php  TARGET=contenutiVisualizza tutti i prodotti A
+BR&nbsp;&nbsp;&nbspA HREF=mostra_prez.php  TARGET=contenutiVisualizza prezzo medio, minimo e massimo A
+BR&nbsp;&nbsp;&nbspA HREF=mostra_quant.php  TARGET=contenutiVisualizza quantità totale, media, minima e massima in magazzinoA
+BR
+BR&nbsp;&nbsp;&nbspA HREF=mostra_forn.php  TARGET=contenutiVisualizza tutti i fornitori A
+BR&nbsp;&nbsp;&nbspA HREF=mostra_stato_forn.php  TARGET=contenutiVisualizza fornitori dello stato.. A
+BR&nbsp;&nbsp;&nbspA HREF=mostra_prov_forn.php  TARGET=contenutiVisualizza i fornitori della provincia..A

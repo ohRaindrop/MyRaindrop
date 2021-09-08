@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+<TITLE>Inserimento prodotto</TITLE>
+</HEAD>
+<BODY BACKGROUND="verde.png">
+
+<BR><FONT SIZE=3 COLOR=purple>
+
+<h3>Inserimento dati del nuovo prodotto:</h3>
+
+<FORM ACTION="ins_pro.php" METHOD="post" enctype="multipart/form-data"> <!--Istruzione per tasto sfoglia -->
+<input type="hidden" name="action" value="upload">
+
+<Font size=4> Carica il file: <input type="file" name="nome_file"></font><br> <!--Istruzione per tasto sfoglia -->
+<br>
+Nome        <INPUT TYPE="text" NAME="nome"><BR>
+Prezzo        <INPUT TYPE="text" NAME="prezzo"><BR>
+Quantità        <INPUT TYPE="text" NAME="quantita"><BR>
+Descrizione        <INPUT TYPE="text" NAME="descrizione"><BR>
+<br>
+Fornitore
+<select name='id_f'>
+<option value='1'>Pierpaoli</option>
+<option value='2'>Erbe di Janas</option>
+<option value='3'>Giardino di Arianna</option>
+<option value='4'>Cuccioli d'uomo</option>
+<option value='5'>Eccoverde</option>
+<option value='6'>Spices of India</option>
+<option value='7'>Sezione Aurea</option>
+</select>
+<br>
+Categoria
+<select name='id_cat'>
+<option value='1'>Animali</option>
+<option value='2'>Argille</option>
+<option value='3'>Saponi</option>
+<option value='4'>Burri</option>
+<option value='5'>Erbe</option>
+<option value='6'>Henna</option>
+<option value='7'>Materie prime</option>
+<option value='8'>Accessori</option>
+<option value='9'>Oli</option>
+<option value='10'>Make up</option>
+<option value='11'>Shampoo</option>
+<option value='12'>Balsamo</option>
+<option value='13'>Creme per capelli</option>
+<option value='14'>Creme per il viso</option>
+<option value='15'>Creme per il corpo</option>
+<option value='16'>Diffusori ambientali</option>
+<option value='17'>Gel</option>
+<option value='18'>Tinte</option>
+<option value='19'>Oli essenziali</option>
+</select>
+<br>
+<input type="submit" value="Aggiungi">
+</form>
+</body>
+</html>
